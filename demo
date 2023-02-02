@@ -1,0 +1,9 @@
+const calltip = function (bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20;
+}
+const bills = [125, 555, 44];
+const tips = [calltip(bills[0]), calltip(bills[1]), calltip(bills[2])];
+console.log(bills, tips);
+
+
+
